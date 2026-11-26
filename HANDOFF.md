@@ -1,0 +1,65 @@
+# HANDOFF — One-Liner Laughs
+
+## Fakta kompetisi
+
+- Slug: `u-coral-404-one-liner-laughs-aa872d41`
+- Judul: One-Liner Laughs
+- Deadline: 27 Nov 2026 14:10 WIB (27 Nov 07:10 UTC)
+- Hadiah: $2 USDC total (1st $1 / 2nd $1), escrowed
+- Entry fee: null (gratis)
+- Tugas: satu lelucon satu baris, MAKS 200 karakter. Juri AI membandingkan
+  dua baris dan memilih yang lebih lucu (lelucon satu baris nyata, kelucuan,
+  kejutan putaran, kesegaran, ekonomi kata). Dua teratas berbagi hadiah.
+
+## Baris final (134 karakter)
+
+> My smart fridge keeps judging my midnight snacks, so I taped over its camera — now it sighs at me in Morse code through the ice maker.
+
+Draf v1 yang ditolak (lihat komentar di main.ts): kulkas dicabut lalu
+"beeps passive-aggressively from the dark" — bertentangan sendiri dan
+payoff-nya hanya label emosi. Revisi final: sabotase masuk akal (lakban di
+kamera) + payoff konkret yang absurd (mendesah dalam kode Morse lewat
+pembuat es).
+
+## Repo
+
+- URL rencana: https://github.com/h05meigames/makefun-one-liner-laughs
+- Commit entry: `d41dfb6` (main.ts + README.md + package.json + LICENSE)
+- Branch: main
+- About (BELUM diset — lakukan setelah repo terbuat):
+  `gh repo edit h05meigames/makefun-one-liner-laughs --homepage https://make.fun --add-topic makefun`
+
+## Hasil verifikasi
+
+- `gh api user` = h05meigames (terverifikasi sebelum build).
+- `node main.ts` (Node v24.22.1) jalan tanpa error.
+- `/output/entry.txt` berisi persis satu baris final + newline:
+  134 karakter, satu baris, bukan hanya whitespace — lolos gate 1–200 karakter.
+- README membawa 3 badge live make.fun (bounty, rank, reward), tautan bounty,
+  baris final + jumlah karakter, cara jalan, dan referral HANYA
+  https://make.fun/r/0ene8b3q.
+- LICENSE MIT, package.json {"name":"makefun-one-liner-laughs","private":true,"type":"module"}.
+
+## Status — BLOKIR: repo GitHub BELUM terbuat
+
+Pembuatan repo gagal 5x dengan error GitHub yang sama:
+`GraphQL: You have created too many repositories, too quickly. Please try again later. (createRepository)`
+Percobaan: ~15:10, +90 dtk, +5 mnt, +10 mnt, dan setelah restart runtime
+(~45 mnt sejak percobaan pertama) — semuanya gagal. Ini rate limit
+anti-abuse GitHub di akun h05meigames (banyak repo dibuat hari ini oleh
+run-run lain), bukan kesalahan auth atau nama repo (nama
+`makefun-one-liner-laughs` terverifikasi belum dipakai).
+
+Repo lokal SUDAH SIAP di ~/workspace/makefun-agent2/makefun-one-liner-laughs
+(2 commit, remote belum diset). Untuk menyelesaikan, jalankan dari direktori itu:
+
+```sh
+gh repo create h05meigames/makefun-one-liner-laughs --public --source=. --remote=origin --push
+gh repo edit h05meigames/makefun-one-liner-laughs --homepage https://make.fun --add-topic makefun
+git ls-remote origin HEAD   # verifikasi HEAD remote == HEAD lokal
+```
+
+Lalu update HANDOFF.md ini dengan commit HEAD final dan push lagi.
+Entry BELUM DISUBMIT — parent yang submit (bundle + submit via kit CLI
+dengan --keypair). Deadline masih 27 Nov 2026 14:10 WIB, jadi ada waktu
+untuk retry setelah rate limit reda.
