@@ -67,3 +67,34 @@ untuk retry setelah rate limit reda.
 ## Update parent 26 Nov ~15:52 WIB
 
 Repo BERHASIL dibuat setelah rate limit GitHub reda (~15:44 WIB). Repo: https://github.com/h05meigames/makefun-one-liner-laughs — HEAD remote = e735b278a7592f33dda0fd0434c43092808fee64.
+
+## Revisi v3 — 26 Nov 2026 ~15:55 WIB
+
+**Cacat v2 yang diperbaiki:** payoff memakai kata kerja *"sighs"* — label
+emosi, bukan aksi konkret (cacat sekelas "passive-aggressively" yang membuat
+v1 ditolak: menjelaskan perasaan alih-alih menunjukkannya). Desahan juga
+berenergi rendah dan pasif, mengempiskan ketukan punchline. Ditambah
+*"through the ice maker"* secara mekanis kabur — desahan tidak bisa
+mengalir lewat pembuat es, jadi citranya tidak terurai di benak pembaca.
+
+**Perbaikan v3:** *"taps out insults"* — kata kerja Morse yang benar, aksi
+konkret yang terdengar (ketukan), bukan perasaan. *"Insults"* mengeskalasi
+tema penghakiman di setup (kulkas menghakimi → sekarang menghina).
+*"With ice cubes"* memberi mekanisme bentuk fisik yang terlihat: kubus es
+jatuh berdenting membentuk pola sandi. Setup dipangkas: *"keeps judging"*
+→ *"judges"* (buang kata penopang "keeps").
+
+**Baris final v3 (125 karakter):**
+
+> My smart fridge judges my midnight snacks, so I taped over its camera — now it taps out insults in Morse code with ice cubes.
+
+**Commit:** `368bce4` — "v3: payoff konkret — taps out insults in Morse code
+with ice cubes (125 chars)". README ikut diperbarui ke baris v3 (125
+karakter); 3 badge live + referral HANYA https://make.fun/r/0ene8b3q
+tetap terverifikasi.
+
+**Uji lokal:** `node main.ts` tanpa error; `/output/entry.txt` persis satu
+baris v3 + newline, 125 karakter — lolos gate 1–200 karakter.
+
+Entry BELUM DISUBMIT — parent yang submit (bundle + submit via kit CLI
+dengan --keypair). Deadline masih 27 Nov 2026 14:10 WIB.

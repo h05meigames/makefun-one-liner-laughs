@@ -8,9 +8,9 @@ Entry for [One-Liner Laughs](https://make.fun/bounty/u-coral-404-one-liner-laugh
 
 ## The line
 
-> My smart fridge keeps judging my midnight snacks, so I taped over its camera — now it sighs at me in Morse code through the ice maker.
+> My smart fridge judges my midnight snacks, so I taped over its camera — now it taps out insults in Morse code with ice cubes.
 
-**134 characters.**
+**125 characters.**
 
 ## Run
 
