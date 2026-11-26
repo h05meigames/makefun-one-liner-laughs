@@ -26,11 +26,27 @@
 //   dan "through the ice maker" menutup baris dengan citra yang bisa
 //   dibayangkan juri seketika. Setup, eskalasi, dan payoff masing-masing
 //   satu ketukan; tidak ada kata yang menjelaskan leluconnya sendiri.
+//
+// REVISI v3 (genuine, 26 Nov 2026 ~15:55 WIB):
+//   Cacat v2: payoff memakai kata kerja "sighs" — itu LABEL EMOSI, bukan
+//   aksi konkret (cacat sekelas "passive-aggressively" yang membuat v1
+//   ditolak: menjelaskan perasaan alih-alih menunjukkannya). Desahan juga
+//   berenergi rendah dan pasif, mengempiskan ketukan punchline. Ditambah
+//   "through the ice maker" secara mekanis kabur — desahan tidak bisa
+//   mengalir lewat pembuat es, jadi citranya tidak terurai di benak
+//   pembaca; juri harus bekerja membayangkannya.
+//   Perbaikan v3: "taps out insults" — kata kerja Morse yang benar, aksi
+//   konkret yang TERDENGAR (ketukan), bukan perasaan. "Insults" mengeskalasi
+//   tema penghakiman di setup (kulkas menghakimi → sekarang menghina).
+//   "With ice cubes" memberi mekanisme bentuk fisik yang terlihat: kubus es
+//   jatuh berdenting membentuk pola sandi. Setup ikut dipangkas: "keeps
+//   judging" → "judges" (buang kata penopang "keeps", hemat 6 karakter).
+//   Baris v3: 125 karakter.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const ENTRY =
-  "My smart fridge keeps judging my midnight snacks, so I taped over its camera — now it sighs at me in Morse code through the ice maker.";
+  "My smart fridge judges my midnight snacks, so I taped over its camera — now it taps out insults in Morse code with ice cubes.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", ENTRY + "\n", "utf8");
