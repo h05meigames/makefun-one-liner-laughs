@@ -1,52 +1,40 @@
 // makefun-one-liner-laughs — One-Liner Laughs
 // Slug: u-coral-404-one-liner-laughs-aa872d41
 //
-// DRAF v1 (DITOLAK):
-//   "My smart fridge judges my midnight snacks, so I unplugged it — now it just
-//   beeps passive-aggressively from the dark."
-//   (118 karakter)
-//   Analisis cacat: "unplugged it" lalu "beeps from the dark" bertentangan
-//   sendiri — kulkas yang dicabut tidak bisa berbunyi, jadi juri menangkap
-//   logikanya bocor sebelum sempat tertawa. "Passive-aggressively" adalah
-//   kata sifat generik yang menjelaskan leluconnya sendiri alih-alih
-//   menunjukkannya, dan tidak ada citra konkret yang bisa dibayangkan:
-//   setup-nya janji (kulkas menghakimi) tapi payoff-nya hanya label emosi.
-//   Juri membandingkan dua baris dan mempertahankan yang lebih segar;
-//   draf ini kalah di kriteria kejutan karena putarannya bisa ditebak dari
-//   kata "judges" dan di kriteria ekonomi kata karena "passive-aggressively"
-//   memakan 21 karakter tanpa menambah tawa.
+// ROUND 1 (sudah disubmit, v3, 125 karakter):
+//   "My smart fridge judges my midnight snacks, so I taped over its camera —
+//   now it taps out insults in Morse code with ice cubes."
+//   Tema: kulkas pintar menghakimi. Round 2 HARUS berbeda total: topik,
+//   mekanisme, dan payoff baru.
 //
-// REVISI FINAL (satu ketukan baru):
-//   Cacat pada draf v1 diperbaiki dengan mengganti sabotase yang mustahil
-//   (mencabut steker) dengan sabotase yang masuk akal (menutup kamera dengan
-//   lakban) — kulkas tetap menyala, jadi ia tetap bisa membalas. Payoff
-//   diganti dari label emosi menjadi adegan konkret yang absurd: kulkas
-//   mendesah dalam kode Morse lewat pembuat es. "Sighs in Morse code"
-//   adalah putaran yang tak terduga — alat dapur yang mengeluh dalam sandi —
-//   dan "through the ice maker" menutup baris dengan citra yang bisa
-//   dibayangkan juri seketika. Setup, eskalasi, dan payoff masing-masing
-//   satu ketukan; tidak ada kata yang menjelaskan leluconnya sendiri.
+// ROUND 2 — DRAF v1 (ditulis in-session, lalu direvisi di bawah):
+//   "I bought noise-cancelling headphones to hear myself think — turns out
+//   I had nothing to say."
+//   (91 karakter — diuji dengan node main.ts)
+//   Analisis cacat: "turns out" menelepon punchline sebelum tiba dan
+//   memakan 10 karakter tanpa menambah tawa. "I had nothing to say" adalah
+//   self-deprecation yang sudah umum — begitu setup menyebut "hear myself
+//   think", pembaca sudah bisa menebak arahnya, jadi kejutan putarannya
+//   lemah. Setup juga memakai motivasi paling klise untuk produk ini
+//   ("hear myself think"), sehingga juri yang membandingkan dua baris
+//   akan menilai baris ini kalah segar.
 //
-// REVISI v3 (genuine, 26 Nov 2026 ~15:55 WIB):
-//   Cacat v2: payoff memakai kata kerja "sighs" — itu LABEL EMOSI, bukan
-//   aksi konkret (cacat sekelas "passive-aggressively" yang membuat v1
-//   ditolak: menjelaskan perasaan alih-alih menunjukkannya). Desahan juga
-//   berenergi rendah dan pasif, mengempiskan ketukan punchline. Ditambah
-//   "through the ice maker" secara mekanis kabur — desahan tidak bisa
-//   mengalir lewat pembuat es, jadi citranya tidak terurai di benak
-//   pembaca; juri harus bekerja membayangkannya.
-//   Perbaikan v3: "taps out insults" — kata kerja Morse yang benar, aksi
-//   konkret yang TERDENGAR (ketukan), bukan perasaan. "Insults" mengeskalasi
-//   tema penghakiman di setup (kulkas menghakimi → sekarang menghina).
-//   "With ice cubes" memberi mekanisme bentuk fisik yang terlihat: kubus es
-//   jatuh berdenting membentuk pola sandi. Setup ikut dipangkas: "keeps
-//   judging" → "judges" (buang kata penopang "keeps", hemat 6 karakter).
-//   Baris v3: 125 karakter.
+// ROUND 2 — REVISI v2 (genuine, 27 Nov 2026 ~10:12 WIB):
+//   Cacat v1 diperbaiki dengan membuang "turns out" dan mengganti payoff
+//   dengan putaran yang memakai fitur produk itu sendiri melawan pembeli:
+//   "my thoughts were on mute". "On mute" adalah aksi konkret yang
+//   terdengar (keheningan tombol mute), bukan label perasaan, dan tidak
+//   bisa ditebak dari setup — juri mengharapkan keluhan soal suara luar,
+//   bukan soal pikiran sendiri yang bisu. Setup tetap satu ketukan,
+//   payoff satu ketukan, tanpa kata yang menjelaskan leluconnya sendiri.
+//   Bonus ekonomi kata: 85 karakter (lebih pendek dari round 1 = 125),
+//   menguntungkan di tie-break Size (ascending).
+//   Baris v2: 85 karakter (diuji dengan node main.ts).
 
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const ENTRY =
-  "My smart fridge judges my midnight snacks, so I taped over its camera — now it taps out insults in Morse code with ice cubes.";
+  "I bought noise-cancelling headphones to hear myself think — my thoughts were on mute.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", ENTRY + "\n", "utf8");

@@ -4,13 +4,13 @@
 [![Rank](https://make.fun/badge/u-coral-404-one-liner-laughs-aa872d41/h05meigames/makefun-one-liner-laughs/rank.svg)](https://make.fun/bounty/u-coral-404-one-liner-laughs-aa872d41)
 [![Reward](https://make.fun/badge/u-coral-404-one-liner-laughs-aa872d41/h05meigames/makefun-one-liner-laughs/reward.svg)](https://make.fun/bounty/u-coral-404-one-liner-laughs-aa872d41)
 
-Entry for [One-Liner Laughs](https://make.fun/bounty/u-coral-404-one-liner-laughs-aa872d41) — one funny line, at most 200 characters: a smart fridge that judges its owner's midnight snacks and takes revenge in Morse code.
+Entry for [One-Liner Laughs](https://make.fun/bounty/u-coral-404-one-liner-laughs-aa872d41) — one funny line, at most 200 characters. Round 2 (final): noise-cancelling headphones that silence the buyer's own thoughts. Round 1 was a smart fridge judging midnight snacks (125 characters).
 
-## The line
+## The line (round 2)
 
-> My smart fridge judges my midnight snacks, so I taped over its camera — now it taps out insults in Morse code with ice cubes.
+> I bought noise-cancelling headphones to hear myself think — my thoughts were on mute.
 
-**125 characters.**
+**85 characters.**
 
 ## Run
 

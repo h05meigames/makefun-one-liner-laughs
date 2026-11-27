@@ -98,3 +98,29 @@ baris v3 + newline, 125 karakter — lolos gate 1–200 karakter.
 
 Entry BELUM DISUBMIT — parent yang submit (bundle + submit via kit CLI
 dengan --keypair). Deadline masih 27 Nov 2026 14:10 WIB.
+
+## Revisi round 2 — 27 Nov 2026 ~10:12 WIB
+
+**Entry BARU, berbeda total dari round 1** (bukan kulkas lagi): headphone
+noise-cancelling. Draf v1 in-session: "I bought noise-cancelling
+headphones to hear myself think — turns out I had nothing to say."
+(91 karakter). Cacat: "turns out" menelepon punchline dan memakan 10
+karakter; "I had nothing to say" self-deprecation umum yang bisa ditebak
+dari setup "hear myself think".
+
+**Revisi v2 (genuine, in-session):** buang "turns out", payoff diganti
+"my thoughts were on mute" — fitur produk itu sendiri melawan pembeli,
+aksi konkret yang terdengar, tidak bisa ditebak dari setup.
+
+**Baris final round 2 (85 karakter):**
+
+> I bought noise-cancelling headphones to hear myself think — my thoughts were on mute.
+
+**Uji lokal:** `node main.ts` 2x, output identik (deterministic);
+`/output/entry.txt` persis satu baris + newline, 85 karakter — lolos
+gate 1–200 karakter. README diperbarui ke baris round 2 (85 karakter);
+3 badge live + referral HANYA https://make.fun/r/0ene8b3q tetap
+terverifikasi; topik repo `makefun`, homepage https://make.fun, publik.
+
+Entry round 2 BELUM DISUBMIT — monitor yang submit (Force_Last: submit
+terakhir sebelum deadline 27 Nov 14:10 WIB adalah entry final).
